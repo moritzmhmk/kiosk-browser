@@ -1,7 +1,7 @@
 PROGRAM := browser
 OBJECTS := browser.o
 
-GTK_VERSION := 2.0
+GTK_VERSION := 3.0
 WEBKITGTK := webkitgtk-3.0
 ifeq (2.0,$(GTK_VERSION))
 WEBKITGTK := webkit-1.0
