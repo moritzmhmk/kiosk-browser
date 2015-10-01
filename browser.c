@@ -7,7 +7,7 @@ void reload_browser(int);
 
 static WebKitWebView* web_view;
 static GtkWidget *window;
-gchar* default_url = "https://github.com/pschultz/kiosk-browser/blob/master/README.md";
+gchar* default_url = "https://github.com/moritzmhmk/kiosk-browser/blob/libwebkit3/README.md";
 
 int main(int argc, char** argv) {
   gtk_init(&argc, &argv);
